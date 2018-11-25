@@ -1,0 +1,40 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- 对话框样式 -->
+    <style name="PassDialog" >
+        <!-- 对话框背景 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- 背景变暗 -->
+        <item name="android:backgroundDimEnabled">true</item>
+        <!-- 边框 -->
+        <item name="android:windowFrame">@null</item>
+        <!-- 没有标题-->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 是否覆盖 -->
+        <item name="android:windowContentOverlay">@null</item>
+        <!-- 背景透明 -->
+        <item name="android:windowIsTranslucent">false</item>
+        <!-- 是否浮现在Activity上 -->
+        <item name="android:windowIsFloating">true</item>
+        <!--&lt;!&ndash; 进出显示动画 &ndash;&gt;-->
+        <!--<item name="android:windowAnimationStyle">@style/PassDialogAnim</item>-->
+
+    </style>
+    
+    <!-- 对话框动画 -->
+    <!--<style name="PassDialogAnim" parent="android:Animation">-->
+        <!--<item name="android:windowEnterAnimation">@anim/normal_dialog_enter</item>-->
+        <!--<item name="android:windowExitAnimation">@anim/normal_dialog_exit</item>-->
+    <!--</style>-->
+
+
+
+</resources>

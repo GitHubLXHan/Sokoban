@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/game_menu_item_last_level"
+        android:icon="@mipmap/ic_launcher"
+        android:title="上一关"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/game_menu_item_game_over"
+        android:icon="@mipmap/ic_launcher"
+        android:title="结束游戏"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/game_menu_item_reelect"
+        android:icon="@mipmap/ic_launcher"
+        android:title="重选关卡"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/game_menu_item_next_level"
+        android:icon="@mipmap/ic_launcher"
+        android:title="下一关"
+        app:showAsAction="never"/>
+
+</menu>

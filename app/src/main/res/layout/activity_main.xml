@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!-- 开始游戏按钮 -->
+    <Button
+        android:id="@+id/btn_main_gameStart"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:background="#4e7daf"
+        android:text="开始游戏"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#fff"/>
+
+    <!-- 游戏说明按钮 -->
+    <Button
+        android:id="@+id/btn_main_gameDescribe"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginVertical="20dp"
+        android:layout_gravity="center"
+        android:background="#4e7daf"
+        android:text="游戏说明"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        />
+
+    <!-- 结束游戏按钮 -->
+    <Button
+        android:id="@+id/btn_main_gameOver"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:background="#4e7daf"
+        android:text="结束游戏"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#fff"/>
+
+</LinearLayout>

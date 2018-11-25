@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolBar_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#035cf6">
+        <TextView
+            android:id="@+id/toolBar_title_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="游戏"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            />
+    </android.support.v7.widget.Toolbar>
+    <RelativeLayout
+        android:id="@+id/content_layout_1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
